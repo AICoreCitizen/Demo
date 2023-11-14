@@ -1,0 +1,11 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/myfile"
+            ],
+            "url": "schemaURL",
+            "python.defaultInterpreterPath": "C:/Users/abrah/OneDrive/projects/aiCoreDemo/.venv/Script/s/python.exe"
+        }
+    ]
+}
