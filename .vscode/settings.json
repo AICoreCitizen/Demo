@@ -7,5 +7,25 @@
             "url": "schemaURL",
             "python.defaultInterpreterPath": "C:/Users/abrah/OneDrive/projects/aiCoreDemo/.venv/Script/s/python.exe"
         }
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "pagila",
+            "database": "pagila",
+            "username": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "staff_db",
+            "database": "staff_db",
+            "username": "postgres"
+        }
     ]
 }

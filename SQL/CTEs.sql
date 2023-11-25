@@ -119,6 +119,27 @@ WITH distinct_rental_rates AS (
     SELECT customer_id,
        AVG(amount) AS average_rental_payment
     FROM 
+        payment
+    WHERE 
+        amount IN 
+        (
+            SELECT rental_rates 
+            FROM distinct_rental_rates
+        )
+    GROUP BY 
+        customer_id
+)SELECT customer_id,
+       ROUND(average_rental_payment, 2) AS average_rental_payment
+FROM 
+    average_customer_rental_payment
+-- WHERE
+--     average_rental_payment > 
+--     (
+--         SELECT average_rental_rate
+--         FROM average_rental_rate
+--     )
+ORDER BY 
+    average_rental_payment DESC;
 
 -- This may look like a large and complicated query, but you can imagine how tangled it would be if we used nested subqueries. The logic here is easier to follow since we can break the complex query up into a series of steps using the CTEs, while not losing performance.
 

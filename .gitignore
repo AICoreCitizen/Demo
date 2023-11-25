@@ -164,3 +164,5 @@ password.txt
 
 # Exclude following directories
 do_not_track/
+SQL/psycopg2_setup.py
+SQL/sqlalchemy_setup.py
