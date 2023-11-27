@@ -161,6 +161,7 @@ cython_debug/
 
 # Not to track for my repo
 password.txt
+personal_info.yaml
 
 # Exclude following directories
 do_not_track/
