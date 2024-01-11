@@ -167,4 +167,5 @@ personal_info.yaml
 do_not_track/
 SQL/psycopg2_setup.py
 SQL/sqlalchemy_setup.py
+AWS/testnumberone.py
 multi_retail_data_centralisation/db_creds.yaml
