@@ -168,4 +168,5 @@ do_not_track/
 SQL/psycopg2_setup.py
 SQL/sqlalchemy_setup.py
 AWS/testnumberone.py
+AWS/loading_iris_to_aws.py
 multi_retail_data_centralisation/db_creds.yaml
