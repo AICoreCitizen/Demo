@@ -163,10 +163,16 @@ cython_debug/
 password.txt
 personal_info.yaml
 
+# Ignore testnumberone.py in the AWS folder
+AWS/testnumberone.py
+AWS/loading_iris_to_aws.py
+
 # Exclude following directories
 do_not_track/
 SQL/psycopg2_setup.py
 SQL/sqlalchemy_setup.py
-AWS/testnumberone.py
-AWS/loading_iris_to_aws.py
 multi_retail_data_centralisation/db_creds.yaml
+
+
+
+
